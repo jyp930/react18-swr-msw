@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Individual from './components/Individual';
 import Integration from './components/Integration';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Individual />
       <hr />
       <Integration />
+      <hr />
+      <Counter />
     </div>
   );
 }
